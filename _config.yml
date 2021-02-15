@@ -1,0 +1,37 @@
+# Site
+name: "Edwin Takahashi"
+title: "Edwin Takahashi"
+logo: ''
+favicon: assets/images/site/favicon.png
+google_analytics: 'UA-179310709-1'
+disqus: ''
+mailchimp-list: ''
+include: ["_pages"]
+permalink: /:title/
+email: 'egao@outlook.com'
+encoding: UTF-8
+baseurl: ''
+
+# Authors
+authors:
+  Edwin:
+    name: Edwin Takahashi
+    display_name: Edwin
+    gravatar: e804ef0b031338d9bce9c31f062fb0ce
+    email: egao@outlook.com
+    web: https://edwintakahashi.com
+    twitter: https://twitter.com/TakahashiEdwin
+    description: 
+
+# Google Analytics
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-179310709-1
+    anonymizeIp: false
+    
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
