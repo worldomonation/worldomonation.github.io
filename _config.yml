@@ -6,7 +6,6 @@ favicon: assets/images/site/favicon.png
 google_analytics: 'UA-179310709-1'
 disqus: ''
 mailchimp-list: ''
-include: ["_pages"]
 permalink: /:title/
 email: 'egao@outlook.com'
 encoding: UTF-8
