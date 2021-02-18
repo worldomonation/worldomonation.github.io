@@ -12,8 +12,6 @@
 
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -37,17 +35,8 @@ ga('send', 'pageview');
 	</noscript>
 
 
-<div class="site-content {% if page.url == '/' %} firstpage {% endif %}"></div>
+{{ content }}
 
-<div class="container" align="center">
-    <!-- Content
-    ================================================== -->
-    <div class="landing">
-        <div class="content">
-            {{ content }}
-        </div>
-    </div>
-</div>
 
 <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
@@ -55,10 +44,6 @@ ga('send', 'pageview');
 <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
 
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
-
-{% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
-{% endif %}
 
 </body>
 </html>
