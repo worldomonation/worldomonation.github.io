@@ -22,6 +22,7 @@ $enable-rounded: false;
 body, input, button, select, optgroup, textarea {   
     font-family:Sen;
 }
+
 body {
     line-height:1.7;
     background: #dbdbdb;
@@ -41,35 +42,39 @@ h1,h2,h3,h4,h5,h6 {
     padding-top:50px;
 }
 
-// Landing page stuff
-.landing > .content {
+.landing-container {
+    font-family: monospace;
+    font-size: 1.1em;
     text-align: center;
-    width: 500px;
-}
+    width: auto;
+    padding-top: clamp(100px, 15%, 350px);
 
-.header > img:nth-child(1) {
-    border-radius: 5%;
-    width:70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.container > div > div > div.links > ul {
-    padding: 0;
-    list-style-type: none;
-
-    li > a:hover {
-        color: red;
+    .header > img {
+        border-radius: 5%;
+        width:70%;
+        max-width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-    a {
-        color: black;
-    }
-}
 
-.padding {
-    padding-top: 5em;
-    padding-bottom: 3em;
+    .padding {
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+
+    .links > ul {
+        padding: 0;
+        list-style-type: none;
+
+        li > a {
+            color: rgb(0, 0, 0);
+        }
+        
+        li > a:hover {
+            color: red;
+        }
+    }
 }
 
 // Default Theme
