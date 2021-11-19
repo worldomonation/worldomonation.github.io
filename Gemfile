@@ -14,3 +14,5 @@ group :jekyll_plugins do
     gem 'bootstrap', '~> 4.4.1'
     gem 'jekyll-analytics'
 end
+
+gem "jekyll-seo-tag", "~> 2.7"

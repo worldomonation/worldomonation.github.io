@@ -22,6 +22,10 @@ authors:
     twitter: https://twitter.com/TakahashiEdwin
     description: 
 
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
 # Google Analytics
 jekyll_analytics:
   GoogleAnalytics:
